@@ -76,7 +76,7 @@ def cropImage(filePath):
 	cv2.imshow("Original", imutils.resize(orig, height = 650))
 	cv2.imshow("Scanned", imutils.resize(warped, height = 650))
 	#cv2.waitKey(0)
-	cv2.imwrite("croppedImage.jpg",warped)
+	cv2.imwrite("resources/croppedImage.jpg",warped)
 	#cv2.waitKey(0)
 
 	
