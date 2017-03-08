@@ -5,8 +5,9 @@ It helps in capturing the HD image from the webcame of the Document and storing 
 
 ## Usage
 
-First set the sys.path in the imageProcessing.py file to your current project directory 
-```sys.path.append('/home/deepnirmal/Documents/ImageProcessing/document-scanner')
+First set the ```sys.path``` in the ```imageProcessing.py``` file to your current project directory 
+```
+sys.path.append('/home/deepnirmal/Documents/ImageProcessing/document-scanner')
 ```
 
 ### STEP 1 : Capturing image from the webcam
